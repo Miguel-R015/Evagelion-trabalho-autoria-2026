@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Neon Genesis Evangelion</title>
+
+    <style>
+        
+        body {
+            background-color: black;
+            color: lightgray;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        
+        header {
+            background-color: black;
+            text-align: center;
+            padding: 35px 20px;
+            border-bottom: 3px solid crimson;
+        }
+
+        header h1 {
+            color: purple;
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: silver;
+            font-size: 16px;
+        }
+
+        
+        nav {
+            background-color: black;
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid dimgray;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: crimson;
+        }
+
+        
+        main {
+            width: 90%;
+            max-width: 1100px;
+            margin: 30px auto;
+        }
+
+        section {
+            background-color: black;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+        }
+
+        section h2 {
+            color: crimson;
+            margin-bottom: 15px;
+            border-bottom: 1px solid dimgray;
+            padding-bottom: 8px;
+        }
+
+        section p {
+            margin-bottom: 12px;
+        }
+
+        
+        .introducao {
+            text-align: center;
+            background-color: black;
+            border: 1px solid dimgray;
+        }
+
+        .introducao h2 {
+            color: mediumpurple;
+        }
+
+        .destaque {
+            color: crimson;
+            font-weight: bold;
+        }
+
+        
+        .personagens {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .personagem {
+            background-color: black;
+            border: 2px solid dimgray;
+            border-radius: 10px;
+            padding: 20px;
+            flex: 1 1 220px;
+            max-width: 320px;
+            transition: 0.3s;
+        }
+
+        .personagem:hover {
+            transform: translateY(-5px);
+        }
+
+        .personagem img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .personagem h3 {
+            margin-bottom: 10px;
+        }
+
+        .personagem p {
+            font-size: 14px;
+        }
+
+        .shinji {
+            border-color: mediumpurple;
+        }
+
+        .shinji h3 {
+            color: mediumpurple;
+        }
+
+        .rei {
+            border-color: skyblue;
+        }
+
+        .rei h3 {
+            color: skyblue;
+        }
+
+        .asuka {
+            border-color: orangered;
+        }
+
+        .asuka h3 {
+            color: orangered;
+        }
+
+        .misato {
+            border-color: deeppink;
+        }
+
+        .misato h3 {
+            color: deeppink;
+        }
+
+        .evas {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .eva {
+            background-color: black;
+            border: 2px solid darkmagenta;
+            border-radius: 10px;
+            padding: 20px;
+            flex: 1 1 250px;
+            text-align: center;
+        }
+
+        
+        .eva img {
+            width: 100%;
+            height: 220px;
+            object-fit: contain;
+            margin-bottom: 15px;
+        }
+
+
+        .eva h3 {
+            color: plum;
+            margin-bottom: 10px;
+        }
+
+        .curiosidades li {
+            margin-left: 2px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: black;
+            border-top: 2px solid crimson;
+            text-align: center;
+            padding: 25px;
+            color: silver;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Neon Genesis Evangelion</h1>
+        <p>Um anime que vai muito além dos robôs gigantes.</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#historia">História</a>
+        <a href="#personagens">Personagens</a>
+        <a href="#evas">Evangelions</a>
+        <a href="#curiosidades">Curiosidades</a>
+    </nav>
+
+    <main>
+
+        <section class="introducao" id="inicio">
+            <h2>Evangelion</h2>
+
+            <p>
+                <span class="destaque">Neon Genesis Evangelion</span> é um anime japonês criado por Hideaki Anno e lançado em 1995. A obra mistura ficção científica, ação e drama, acompanhando um mundo que tenta sobreviver a ataques de criaturas conhecidas como Anjos.
+            </p>
+
+            <p>
+                O principal diferencial da série está na forma como ela apresenta seus personagens. Além das batalhas, a história mostra seus medos, suas inseguranças e os problemas que enfrentam ao tentar se relacionar com outras pessoas.
+            </p>
+
+            <p>
+               Mesmo tendo robôs gigantes e cenas de ação, Evangelion não é apenas uma história sobre salvar a humanidade. Aos poucos, a série revela mistérios que mudam a maneira como entendemos os acontecimentos.
+            </p>
+        </section>
+
+        <section id="historia">
+            <h2>A História</h2>
+
+            <p>
+               A história se passa depois de uma catástrofe chamada Segundo Impacto, que mudou o mundo e provocou enormes perdas humanas. Anos depois, criaturas conhecidas como Anjos começam a aparecer, ameaçando a sobrevivência da humanidade.
+            </p>
+
+            <p>
+                Ao longo da série, Shinji conhece outros pilotos e passa a conviver com pessoas que também possuem seus próprios conflitos. Enquanto a NERV tenta impedir os ataques dos Anjos, vários segredos começam a surgir, levantando dúvidas sobre os objetivos da organização e sobre o que realmente está acontecendo.
+            </p>
+
+        </section>
+
+        <section id="personagens">
+            <h2>Personagens Principais</h2>
+
+            <div class="personagens">
+
+                <div class="personagem shinji">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/en/c/ca/Shinji_Ikari.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+                        alt="Shinji Ikari"
+                    >
+
+                    <h3>Shinji Ikari</h3>
+
+                    <p>
+                        Shinji é o piloto da Unidade 01 e o principal protagonista da série. Ele costuma ser inseguro e tem dificuldade para se aproximar das pessoas, principalmente por causa de sua relação complicada com o pai. Ao longo da história, suas decisões e reações mostram como a pressão de ser piloto afeta sua vida.
+                    </p>
+                </div>
+
+                <div class="personagem rei">
+                    <img
+                        src="https://thumb.wikimedia.org/wikipedia/en/thumb/5/53/Rei_Ayanami.jpg/250px-Rei_Ayanami.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+                        alt="Rei Ayanami"
+                    >
+
+                    <h3>Rei Ayanami</h3>
+
+                    <p>
+                        Rei é a piloto da Unidade 00 e uma das personagens mais misteriosas do anime. Ela costuma falar pouco e demonstra suas emoções de maneira discreta. Sua ligação com Gendo Ikari e os segredos sobre sua origem fazem dela uma peça importante para entender a história.
+                    </p>
+                </div>
+
+                <div class="personagem asuka">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/en/2/2f/Asukka13.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+                        alt="Asuka Langley"
+                    >
+
+                    <h3>Asuka Langley</h3>
+
+                    <p>
+                       Asuka é a piloto da Unidade 02 e tem uma personalidade forte, competitiva e bastante orgulhosa. Ela gosta de demonstrar suas habilidades e não aceita facilmente ser superada pelos outros. Apesar de toda essa confiança, sua história revela que existe muito mais por trás de seu comportamento.
+                    </p>
+                </div>
+
+                <div class="personagem misato">
+                    <img
+                        src=https://thumb.wikimedia.org/wikipedia/it/thumb/9/98/Misato_Katsuragi.jpg/330px-Misato_Katsuragi.jpg?utm_source=it.wikipedia.org&utm_campaign=parser&utm_content=thumbnail""
+                        alt="Imagem representativa de Misato Katsuragi"
+                    >
+
+                    <h3>Misato Katsuragi</h3>
+
+                    <p>
+                        Misato trabalha na NERV e é responsável por coordenar as operações dos Evangelions. Fora do trabalho, tem um jeito descontraído e uma rotina bastante desorganizada. Mesmo assim, ela leva suas responsabilidades a sério e também precisa lidar com acontecimentos difíceis de seu passado.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="evas">
+            <h2>As Unidades Evangelion</h2>
+
+            <p>
+                Os Evangelions são as unidades usadas pela NERV para enfrentar os Anjos. Apesar de parecerem robôs gigantes, eles possuem características que os tornam bem diferentes de máquinas comuns. Cada unidade tem suas particularidades e um papel importante na história.
+            </p>
+
+            <div class="evas">
+
+                <div class="eva">
+                    <h3>Unidade 00</h3>
+
+                  <img src="https://static.wikia.nocookie.net/neongenesisevangelion/images/3/37/22_C259D_zero.jpeg/revision/latest?cb=20130903051924&path-prefix=pt-br"
+                   alt="Evangelion Unidade 00">
+      
+                    <p>
+                        A Unidade 00 é pilotada principalmente por Rei Ayanami. É uma das primeiras unidades desenvolvidas pela NERV e possui uma aparência predominantemente azul. Sua participação nas operações é importante para o desenvolvimento do projeto Evangelion.
+                    </p>
+                </div>
+
+                <div class="eva">
+                    <h3>Unidade 01</h3>
+
+                    <img src="https://static.wikia.nocookie.net/neongenesisevangelion/images/c/c9/19_C338_guooo.jpg/revision/latest?cb=20120427020707&path-prefix=pt-br"
+                    alt="Evangelion Unidade 01">
+
+                    <p>
+                       A Unidade 01 é pilotada por Shinji Ikari e tem uma aparência roxa com detalhes verdes. Ela ocupa uma posição central na trama e protagoniza algumas das cenas mais marcantes da série. Suas capacidades e seu comportamento também levantam questões que vão além do combate.
+                    </p>
+                </div>
+
+                <div class="eva">
+                    <h3>Unidade 02</h3>
+                    
+                    <img src="https://static.wikia.nocookie.net/neongenesisevangelion/images/7/7b/OP_C053_eva02.jpg/revision/latest?cb=20130903053103&path-prefix=pt-br"
+                     alt="Evangelion Unidade 02">
+      
+                    <p>
+                        A Unidade 02 é pilotada por Asuka Langley e se destaca pela cor vermelha. Foi desenvolvida para o combate e representa um avanço em relação às unidades anteriores. Sua atuação também está ligada às habilidades e à personalidade de sua piloto.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="curiosidades" id="curiosidades">
+            <h2>Curiosidades</h2>
+
+            <ul>
+                <li>
+                    O anime original começou a ser exibido no Japão em 1995.
+                </li>
+
+                <li>
+                    A série foi criada e dirigida por Hideaki Anno.
+                </li>
+
+                <li>
+                    Os nomes e símbolos religiosos presentes na obra chamam a atenção, mas nem sempre possuem o mesmo significado que têm nas religiões reais.
+                </li>
+
+                <li>
+                    A história ganhou um desfecho nos filmes The End of Evangelion, além do final apresentado na série de televisão.
+                </li>
+
+                <li>
+                     Anos depois, a franquia recebeu os filmes Rebuild of Evangelion, que apresentam uma nova versão da história.
+                </li>
+
+                <li>
+                    Durante a produção de Evangelion, Hideaki Anno passou por um período difícil emocionalmente. Ele usou parte de suas próprias reflexões e experiências como inspiração para a série, algo que pode ser percebido nos conflitos psicológicos dos personagens e no final original do anime, que se concentra mais no mundo interior de Shinji do que em explicar todos os mistérios da história.
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>É uma boa obra</p>
+        <p>Recomendo</p>
+    </footer>
+
+</body>
+</html>
